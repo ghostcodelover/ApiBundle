@@ -33,15 +33,9 @@ use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 
     /**
      * @var ApiPaginatorInterface
-     * @DI\Inject("events_api.api_paginator")
+     * @DI\Inject("zandu_api.api_paginator")
      */
     protected $paginator;
-
-    /**
-     * @var UserEntityManagerInterface
-     * @DI\Inject("znd_usm_user.user_entity_manager")
-     */
-    protected $userManager;
 
     /**
      * @return null|\Symfony\Component\Security\Core\Authentication\Token\TokenInterface3
