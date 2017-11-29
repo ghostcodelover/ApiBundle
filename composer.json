@@ -1,0 +1,40 @@
+{
+    "name": "ghostcodelover/api-bundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle is a Symfony3 ghostcodelover implementation",
+    "keywords": ["ApiBundle", "ghostcodelover", "zandu"],
+    "homepage": "http://zandu.cd",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Mukendi emmanuel",
+        "email": "mukendiemmanuel15@gmail.com",
+        "homepage": "https://zandu.cd"
+    }
+    ],
+
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.4",
+        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/doctrine-bundle": "~1.2",
+        "twig/extensions": "~1.0",
+        "sensio/framework-extra-bundle": "~3.0",
+        "jms/serializer-bundle": "~0.13",
+        "friendsofsymfony/rest-bundle": "~1.2",
+        "ul/angular-csrf-bundle": "~0.1"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "ZND\\SIM\\ApiBundle\\": ""
+        }
+    },
+    
+    "target-dir": "ZND/SIM/ApiBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
